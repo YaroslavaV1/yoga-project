@@ -115,3 +115,24 @@ p {
   text-align: left;
   padding-left: 0px;
 }
+@media (max-width: 768px) {
+  .home-image {
+    display: none;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h2,
+  .left,
+  .primary-link {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  h3 {
+    margin: 10px;
+  }
+}
